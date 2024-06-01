@@ -91,6 +91,7 @@ void down_possible(const int rows, const int columns, char field[rows][columns],
 
 void game_field(const int rows, const int columns, char field[rows][columns]){
     //writing array
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     for (int i = 0; i < rows; i++){
         printf("%d |", i+1);  // index of row
         for(int j = 0; j < columns; j++){
